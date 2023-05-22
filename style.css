@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(to bottom, #4e88ba 0%, #0d3655 100%);
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: fit-content;
+}
+ul#wifiList li {
+    padding: 7px;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 1.1px;
+    transition: 0.3s;
+    border-radius: 7px;
+}
+ul#wifiList li:hover {
+    color: white;
+    /* background-color: lightgray; */
+    /* box-shadow: rgba(161, 142, 142, 0.35) 0px 5px 15px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.simple-keyboard {
+    max-width: 850px;
+    /* display: none; */
+  }
+  .hidden{
+    display: none !important;
+  }
+  button {
+    border: none;
+    padding: 15px;
+ 
+    border-radius: 4px;
+}
+input#input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 62%;
+    font-size: 16px;
+    font-family: auto;
+}
+/* ul#wifiList div {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 5px;
+} */
+
+ul#wifiList {
+    list-style: none;
+}
+ul#wifiList li i {
+    padding: 0px 10px 0px 0px;
+}

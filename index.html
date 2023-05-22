@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-keyboard@latest/build/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 style="color: white; text-align: center; ">Available Wifi Devices</h1>
+    <hr>
+    <ul id="wifiList" style="color:white">
+
+    </ul>
+    <dialog id="favDialog">
+        <h1 id="wifiName"> </h1>
+        <p>
+            <input name="searchTxt" type="text" maxlength="512" placeholder="Enter wifi password" id="input"
+                class="input">
+        <p>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">Show/Hide Virtual keyboard</label>
+        </p>
+
+        <div class="hidden " id="virtualKeyboard">
+            <div class="simple-keyboard "></div>
+        </div>
+
+        </p>
+        <div>
+            <button value="cancel" id="cancelBtn" style="   background: rgb(218, 132, 34);"
+                formmethod="dialog">Cancel</button>
+            <button id="confirmBtn" style="   background: lightblue;" value="default">Submit</button>
+        </div>
+        <div id="keyboard"></div>
+    </dialog>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/simple-keyboard@latest/build/index.js"></script>
+<script src="wifiControl.js"></script>
+<script src="keyboard.js"></script>
+
+</html>
